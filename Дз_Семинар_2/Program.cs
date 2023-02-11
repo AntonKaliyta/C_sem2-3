@@ -12,7 +12,7 @@
 //     System.Console.WriteLine(result);
 // }
 
-// Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.(не решена)
+// Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
 
 // System.Console.WriteLine("Введите число");
 // int a = Convert.ToInt32(Console.ReadLine());
@@ -35,21 +35,21 @@
 // Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
 
 
-System.Console.WriteLine("Введите цифру");
-int day = int.Parse(Console.ReadLine());
+// System.Console.WriteLine("Введите цифру");
+// int day = int.Parse(Console.ReadLine());
 
-if (day < 8 && day > 0)
-{
-    if (day > 5)
-    {
-    System.Console.WriteLine("Да");
-    }
-    else
-    {
-    System.Console.WriteLine("Нет");
-    }   
-}
-else
-{
-  System.Console.WriteLine("Введите день недели(1-7)");  
-}
+// if (day < 8 && day > 0)
+// {
+//     if (day > 5)
+//     {
+//     System.Console.WriteLine("Да");
+//     }
+//     else
+//     {
+//     System.Console.WriteLine("Нет");
+//     }   
+// }
+// else
+// {
+//   System.Console.WriteLine("Введите день недели(1-7)");  
+// }
